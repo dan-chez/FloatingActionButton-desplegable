@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/texto_main" />
+
+    <View
+        android:id="@+id/viewTransparenteBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTransBg"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFloating1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/marginDefecto"
+        android:layout_marginBottom="@dimen/marginDefecto"
+        android:clipToPadding="false"
+        android:gravity="center_vertical"
+        android:padding="@dimen/paddingDefecto"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:fabSize="mini"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFloating2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/marginDefecto"
+        android:layout_marginBottom="@dimen/marginDefecto"
+        android:clipToPadding="false"
+        android:gravity="center_vertical"
+        android:padding="@dimen/paddingDefecto"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cámara" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/ic_camera" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFloating3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/marginDefecto"
+        android:layout_marginBottom="@dimen/marginDefecto"
+        android:clipToPadding="false"
+        android:gravity="center_vertical"
+        android:padding="@dimen/paddingDefecto"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Microfono" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:tint="@android:color/white"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/ic_mic" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:clipToPadding="false"
+        android:gravity="center_vertical"
+        android:padding="@dimen/paddingDefecto">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButtonContenedor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:gravity="center_vertical"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/ic_add" />
+    </LinearLayout>
+
+
+</RelativeLayout>
