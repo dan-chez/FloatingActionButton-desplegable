@@ -4,9 +4,9 @@ Plantilla de un activity con FloatingActionButton el cual despliega un menú con
 
 **FloatingActionButton sin desplegar menú**
 
-![alt text](https://github.com/damace/FloatingActionButton-desplegable/blob/master/FloatingActionButtonMenuDesplegable/menu.jpeg)
+![alt text](https://github.com/damace/FloatingActionButton-desplegable/blob/master/FloatingActionButtonMenuDesplegable/menu_sin_abrir.jpeg)
 
 **FloatingActionButton menú desplegado**
 
-![alt text](https://github.com/damace/FloatingActionButton-desplegable/blob/master/FloatingActionButtonMenuDesplegable/menu_desplagado.jpeg)
+![alt text](https://github.com/damace/FloatingActionButton-desplegable/blob/master/FloatingActionButtonMenuDesplegable/menu_desplagado_totalmente.jpeg)
 
